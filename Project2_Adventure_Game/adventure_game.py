@@ -14,7 +14,7 @@ def valid_input(prompt, options):
     while True:
         response = input(prompt).lower()
         for option in options:
-            if option in response:
+            if response in option:
                 return response
 
 
